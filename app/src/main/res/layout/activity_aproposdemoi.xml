@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aproposdemoiActivity">
+    <TextView
+        android:id="@+id/aproposdemoitext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A propos de moi"
+        android:layout_marginTop="50dp"
+        android:gravity="center" />
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Prénom" />
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Nom" />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Age" />
+    <EditText
+        android:id="@+id/adressemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Adresse mail" />
+    <TextView
+        android:id="@+id/handicaptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handicap"
+        android:gravity="center"
+        android:layout_marginTop="50dp"></TextView>
+    <Button
+        android:id="@+id/enregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enregistrer"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
